@@ -1,0 +1,17 @@
+* {background-color: khaki;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;}
+
+header {display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;    
+    position: fixed;
+    z-index: 10;
+    border: black dotted 2px;
+  
+}
+
+span {padding: 5px;}
+
+main {padding-top: 100px;}
