@@ -12,6 +12,6 @@ header {display: inline-flex;
   
 }
 
-span {padding: 5px;}
+span {padding: 5px; margin-right: 40px;}
 
 main {padding-top: 100px;}
