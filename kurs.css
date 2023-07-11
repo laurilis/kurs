@@ -9,11 +9,17 @@ header {display: inline-flex;
     position: fixed;
     z-index: 10;
     border: black dotted 2px;
+    background-color: cornsilk;
+           height:90px;
   
 }
 
-span {padding: 5px; margin-right: 40px;
-        font-weight: bold;}
+header span a {background-color: cornsilk;}
+header span a:hover {background-color: rgb(230, 203, 168); padding: 5px;}
+
+header span {padding: 5px; margin-right: 40px;
+        font-weight: bold; background-color: cornsilk;}
+
 
 main {padding-top: 100px;}
 
