@@ -10,7 +10,7 @@ header {display: inline-flex;
     z-index: 10;
     border: black dotted 2px;
     background-color: cornsilk;
-           height:80px;
+           
         
   
 }
@@ -27,9 +27,12 @@ main {padding-top: 100px;}
 
 ol li {line-height: 2em;}
 
+img {width: 60%}
+
 @media screen and (max-width: 800px) {
-   
-    * {font-size: 16px;}
-    header {height: 70px; display: inline-flex; flex-direction: row; justify-content: space-around;}
+    img {width: 100%}
+    * {font-size: 16px;} }
+
+   /* header {height: 70px; display: inline-flex; flex-direction: row; justify-content: space-around;}
     header span { padding-right: 3px; margin: 0;}
-    header span a {font-size: 14px; margin-left: 2px}}
+    header span a {font-size: 14px; margin-left: 2px}}*/
